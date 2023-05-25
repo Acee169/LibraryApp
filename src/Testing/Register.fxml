@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="853.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Testing.Registercontroller">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="606.0" prefWidth="850.0" style="-fx-background-color: #FFE9D0;">
+         <children>
+            <Label layoutX="281.0" prefHeight="93.0" prefWidth="260.0" text="Libray">
+               <font>
+                  <Font name="System Bold Italic" size="64.0" />
+               </font>
+            </Label>
+            <VBox layoutY="91.0" prefHeight="510.0" prefWidth="174.0" />
+            <Pane layoutX="-1.0" layoutY="141.0" prefHeight="465.0" prefWidth="853.0" style="-fx-background-color: #FFE9D0;">
+               <children>
+                  <TextField fx:id="passwordField" layoutX="167.0" layoutY="211.0" prefHeight="25.0" prefWidth="260.0" promptText="Password" />
+                  <Label layoutX="47.0" layoutY="137.0" prefHeight="27.0" prefWidth="88.0" text="Username">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="47.0" layoutY="174.0" prefHeight="27.0" prefWidth="88.0" text="School ID">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="47.0" layoutY="211.0" prefHeight="27.0" prefWidth="102.0" text="Password">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="fullnameField" layoutX="167.0" layoutY="138.0" prefHeight="25.0" prefWidth="260.0" promptText="Username or ID" />
+                  <TextField fx:id="emailIdField" layoutX="167.0" layoutY="175.0" prefHeight="25.0" prefWidth="260.0" promptText="ID" />
+                  <Button fx:id="submitButton" layoutX="334.0" layoutY="289.0" mnemonicParsing="false" onAction="#insert" prefHeight="25.0" prefWidth="88.0" text="Register" />
+                  <Button fx:id="RESlogin" layoutX="232.0" layoutY="289.0" mnemonicParsing="false" onAction="#Login" prefHeight="25.0" prefWidth="102.0" text="Login" />
+                  <Button fx:id="RESback" layoutX="54.0" mnemonicParsing="false" onAction="#Back" text="&lt;" />
+                  <Label layoutX="45.0" layoutY="53.0" text="Firstname">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="46.0" layoutY="95.0" text="Lastname">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="firstname" layoutX="167.0" layoutY="54.0" prefHeight="25.0" prefWidth="260.0" promptText="Firstname" />
+                  <TextField fx:id="lastname" layoutX="167.0" layoutY="96.0" prefHeight="25.0" prefWidth="260.0" promptText="Lastname" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

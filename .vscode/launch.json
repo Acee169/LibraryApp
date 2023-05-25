@@ -6,18 +6,26 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Current File",
+            "name": "App",
             "request": "launch",
-            "mainClass": "${file}",
-            "vmArgs": "--module-path ${workspaceFolder}/lib/javafx-sdk-20/lib --add-modules javafx.controls,javafx.fxml"
+            "mainClass": "App",
+            "projectName": "LibraryApp_d04c749f",
+            "vmArgs": "--module-path \"D:/I3-GIC-2022-2023/Github/LibraryApp/lib/javafx-sdk-20/lib\" --add-modules javafx.controls,javafx.fxml",
         },
         {
             "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "App",
-            "projectName": "LibraryApp_3ae05fae",
-            "vmArgs": "--module-path ${workspaceFolder}/lib/javafx-sdk-20/lib --add-modules javafx.controls,javafx.fxml"
+            "projectName": "LibraryApp_2ac5920",
+            "vmArgs": "--module-path \"D:/I3-GIC-2022-2023/Github/LibraryApp/lib/javafx-sdk-20/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "--module-path \"D:/I3-GIC-2022-2023/Github/LibraryApp/lib/javafx-sdk-20/lib\" --add-modules javafx.controls,javafx.fxml"
         }
     ]
 }

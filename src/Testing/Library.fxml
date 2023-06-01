@@ -7,7 +7,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="850.0" style="-fx-background-color: #FFE9D0;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Testing.Librarycontroller">
    <children>
-      <Label layoutX="281.0" prefHeight="66.0" prefWidth="305.0" text="Libray">
+      <Label layoutX="281.0" prefHeight="66.0" prefWidth="305.0" text="Library">
          <font>
             <Font name="System Bold Italic" size="64.0" />
          </font>

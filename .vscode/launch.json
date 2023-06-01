@@ -6,33 +6,25 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
             "name": "ConnectDB",
             "request": "launch",
             "mainClass": "Database.ConnectDB",
-            "projectName": "LibraryApp_cd76120c"
-        },
-        {
-            "type": "java",
-            "name": "App",
-            "request": "launch",
-            "mainClass": "App",
             "projectName": "LibraryApp_d04c749f",
-            "vmArgs": "--module-path \"D:/I3-GIC-2022-2023/Github/LibraryApp/lib/javafx-sdk-20/lib\" --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path D:/I3-GIC-2022-2023/Github/LibraryApp1/LibraryApp/lib/javafx-sdk-20/lib --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
             "name": "App",
             "request": "launch",
-            "mainClass": "App",
-            "projectName": "LibraryApp_2ac5920",
-            "vmArgs": "--module-path \"D:/I3-GIC-2022-2023/Github/LibraryApp/lib/javafx-sdk-20/lib\" --add-modules javafx.controls,javafx.fxml"
-        },
-        {
-            "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}",
-            "vmArgs": "--module-path \"D:/I3-GIC-2022-2023/Github/LibraryApp/lib/javafx-sdk-20/lib\" --add-modules javafx.controls,javafx.fxml"
+            "mainClass": "Testing.App",
+            "projectName": "LibraryApp_d04c749f",
+            "vmArgs": "--module-path D:/I3-GIC-2022-2023/Github/LibraryApp1/LibraryApp/lib/javafx-sdk-20/lib --add-modules javafx.controls,javafx.fxml"
         }
     ]
 }
